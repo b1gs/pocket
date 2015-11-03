@@ -48,9 +48,9 @@ public class Entry implements IApplication {
 	  SceneManager manager = new SceneManager();
 	  manager.start();
      final IScene main = DataProvider.createScene();
-//    main.setBackGround(new Background(0x0F00FF00));
-//    main.setId("main");
-//    main.setBackGround(new Background("images/background.jpg"));
+    main.setBackGround(new Background(0x0F00FF00));
+    main.setId("main");
+    main.setBackGround(new Background("images/background.jpg"));
 //    
 //    
 //    ITextFormat format = DataProvider.createTextFormat(DataProvider.createFont("italic48", Style.ITALIC, 48),
