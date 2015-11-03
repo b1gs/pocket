@@ -47,7 +47,7 @@ public class Entry implements IApplication {
   public void init() {
 	  SceneManager manager = new SceneManager();
 	  manager.start();
-//    final IScene main = DataProvider.createScene();
+     final IScene main = DataProvider.createScene();
 //    main.setBackGround(new Background(0x0F00FF00));
 //    main.setId("main");
 //    main.setBackGround(new Background("images/background.jpg"));
